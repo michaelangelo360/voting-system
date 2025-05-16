@@ -6,9 +6,9 @@
 
 // Database Configuration
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'voting_system');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_NAME', 'tickets0_allvotesgh');
+define('DB_USER', 'tickets0_all_user');
+define('DB_PASS', '4UPQ=dJ7cF6?');
 
 // Application Settings
 define('APP_NAME', 'AllVotesGH');
