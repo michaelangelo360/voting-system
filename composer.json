@@ -1,0 +1,29 @@
+{
+    "name": "alfredbc/voting-system",
+    "description": "AllVotesGH Voting System API",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-fileinfo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Config\\": "config/",
+            "Controllers\\": "controllers/",
+            "Models\\": "models/",
+            "Services\\": "services/",
+            "Utils\\": "utils/"
+        }
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "mkdir -p uploads/events uploads/categories uploads/nominees logs"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
